@@ -81,13 +81,13 @@ Durante el entrenamiento, la red genera una gráfica como esta:
 
 ![Evolución de la pérdida](img_1.png)
 
-> La gráfica muestra cómo la **pérdida disminuye** conforme aumentan las épocas, y aunque a partir de la época 200 las mejoras parecen menores, seguir hasta 600 permite que la red alcance el ajuste óptimo y no pierda precisión.
+> La gráfica muestra cómo la **pérdida disminuye** conforme aumentan las épocas, y aunque a partir de la época 100 las mejoras parecen menores, seguir hasta 600 permite que la red alcance el ajuste óptimo y no pierda precisión.
 
 ---
 
 ## ⚙️ Explicación de la elección de épocas
 
-* A veces, después de cierta época (200-300), la **pérdida parece estabilizarse**. Esto puede dar la falsa impresión de que el entrenamiento ya no mejora nada.
+* A veces, después de cierta época (100-300), la **pérdida parece estabilizarse**. Esto puede dar la falsa impresión de que el entrenamiento ya no mejora nada.
 * Sin embargo, la red todavía ajusta pequeños detalles de los pesos y sesgos, que son importantes para **maximizar la exactitud**.
 * Por eso, reducir de 600 a 300 épocas puede resultar en un modelo menos preciso, incluso si visualmente la gráfica parece similar.
 
@@ -95,5 +95,4 @@ Durante el entrenamiento, la red genera una gráfica como esta:
 
 ## 🔑 Conclusión
 
-Este proyecto demuestra cómo una **red neuronal simple** puede aprender relaciones matemáticas entre variables, cómo el entrenamiento con múltiples épocas mejora gradualmente la precisión y cómo la visualización de la pérdida ayuda a comprender el proceso de aprendizaje. También sirve como base para explicar conceptos de IA a nivel educativo.
-
+Este proyecto demuestra cómo una **red neuronal simple** puede aprender relaciones matemáticas entre variables, cómo el entrenamiento con múltiples épocas mejora gradualmente la precisión y cómo la visualización de la pérdida ayuda a comprender el proceso de aprendizaje. 
